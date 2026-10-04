@@ -70,45 +70,40 @@ Un sitio web full-stack con React 19 y un backend Express ligero que maneja los 
 
 ## Vista Previa
 
-### Inicio
+<img src="assets/screenshots/01-inicio.png" width="100%" alt="Página de inicio de Cakeando Sweets Bar con el mensaje principal y la navegación">
 
-La portada presenta la propuesta de la marca con un titular grande. El **Mensaje principal** (1) resume la idea de elegancia artesanal, el **Botón Ver Menú** (2) lleva directo al catálogo y la **Navegación** (3) da acceso a todas las secciones.
-
-<img src="assets/screenshots/01-inicio.png" width="100%" alt="Página de inicio con el mensaje principal, el botón Ver Menú y la navegación resaltados">
-
-En móvil la navegación se recoge en un menú compacto. El **Mensaje principal** (1) y el **Botón Ver Menú** (2) siguen visibles sin desplazarse.
-
-<img src="assets/screenshots/01-inicio-mobile.png" width="40%" alt="Página de inicio en móvil con el mensaje principal y el botón Ver Menú resaltados">
-
-### Menú
-
-El catálogo muestra los productos en tarjetas. El **Título del menú** (1) abre la página, los **Filtros de categoría** (2) permiten ver solo una línea de productos y cada **Tarjeta de producto** (3) incluye precio, descripción y un enlace para consultar.
-
-<img src="assets/screenshots/02-menu.png" width="100%" alt="Página del menú con el título, los filtros de categoría y una tarjeta de producto resaltados">
-
-### Especialidades
-
-Esta página reúne los pedidos especiales. El **Título de la página** (1) presenta la sección, la **Imagen de la obra** (2) muestra el producto y el **Pastel de bodas** (3) abre la descripción detallada de cada especialidad.
-
-<img src="assets/screenshots/03-especialidades.png" width="100%" alt="Página de especialidades con el título, la imagen de la obra y el encabezado del pastel de bodas resaltados">
-
-### Cake Bar
-
-El Cake Bar es la estación interactiva para eventos. El **Título del Cake Bar** (1) presenta la experiencia y la sección de **Montaje a medida** (2) muestra cómo se arma la barra para cada celebración.
-
-<img src="assets/screenshots/04-cake-bar.png" width="100%" alt="Página del Cake Bar con el título y la sección de montaje a medida resaltados">
-
-### Pa' Tu Evento
-
-Aquí se solicita el servicio para una celebración. El **Título** (1) abre la solicitud, la opción **Orden personalizada** (2) se elige junto a la de CakeBar en tu evento y el **Paquete popular** (3) destaca la opción más elegida entre los tres paquetes.
-
-<img src="assets/screenshots/05-pa-tu-evento.png" width="100%" alt="Página de reservas con el título, la opción de orden personalizada y el paquete popular resaltados">
-
-### Contacto
-
-La página de contacto ofrece dos vías. El **Título de contacto** (1) abre la sección, el enlace **Chat por WhatsApp** (2) da respuesta inmediata y el botón **Enviar mensaje** (3) envía el formulario.
-
-<img src="assets/screenshots/06-contacto.png" width="100%" alt="Página de contacto con el título, el chat por WhatsApp y el botón de enviar mensaje resaltados">
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/screenshots/02-menu.png" width="100%" alt="Página del menú con el catálogo de productos">
+      <br><b>Menú</b>: catálogo de productos con filtros por categoría y precios.
+    </td>
+    <td width="50%">
+      <img src="assets/screenshots/03-especialidades.png" width="100%" alt="Página de especialidades con los pedidos especiales">
+      <br><b>Especialidades</b>: pedidos especiales como pasteles de bodas.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="assets/screenshots/04-cake-bar.png" width="100%" alt="Página del Cake Bar para eventos">
+      <br><b>Cake Bar</b>: estación interactiva de postres con montaje a medida.
+    </td>
+    <td width="50%">
+      <img src="assets/screenshots/05-pa-tu-evento.png" width="100%" alt="Página de reservas Pa' Tu Evento con los paquetes">
+      <br><b>Pa' Tu Evento</b>: paquetes para celebraciones y formulario de reserva.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="assets/screenshots/06-contacto.png" width="100%" alt="Página de contacto con formulario y chat por WhatsApp">
+      <br><b>Contacto</b>: formulario por correo y chat directo por WhatsApp.
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/07-inicio-movil.png" width="35%" alt="Página de inicio en versión móvil">
+      <br><b>Versión móvil</b>: la página de inicio adaptada a pantallas pequeñas.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -181,7 +176,15 @@ La navegación es por estado dentro de `App.tsx` (sin react-router), con transic
 
 ## Contacto
 
-El código fuente es propietario. Para consultas, visita el perfil de GitHub: [github.com/deadlyrat](https://github.com/deadlyrat).
+El código fuente es propietario. Para consultas o propuestas, escríbeme:
+
+[![Email](https://img.shields.io/badge/Email-pablozam1931%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablozam1931@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-(507)%206517--1870-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/50765171870)
+[![GitHub](https://img.shields.io/badge/GitHub-deadlyrat-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deadlyrat)
+
+- Correo: [pablozam1931@gmail.com](mailto:pablozam1931@gmail.com)
+- WhatsApp: [(507) 6517-1870](https://wa.me/50765171870)
+- GitHub: [github.com/deadlyrat](https://github.com/deadlyrat)
 
 ---
 
