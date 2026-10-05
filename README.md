@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/screenshots/01-inicio.png" width="80%" alt="Página de inicio de Cakeando Sweets Bar con el mensaje principal, el botón Ver Menú y la navegación">
+<img src="assets/banner.gif" width="100%" alt="Banner animado de Cakeando Sweets Bar">
 
 # Cakeando Sweets Bar
 
